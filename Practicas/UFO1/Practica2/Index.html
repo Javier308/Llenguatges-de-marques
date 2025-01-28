@@ -1,55 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Webpack Project</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Practica 01</title>
 </head>
 <body>
-  <header class="header">
-    <a class="logo" href="logo">
-    <img src="img/logo.svg"></a>
-    <a class="try" href="">Try It Free</a>
-    <div class="intro">
-      <h1>Build The Community Your Fans Will Love</h1>
-      <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
-      <a class="get" href="">Get Started For Free</a>
-    </div>
-    <div class="photo">
-      <img src="img/illustration-mockups.svg" alt="">
-    </div>
-  </header>
-  <main>
-    <div class="content">
-      <div class="descripcion">
-        <h2>Grow Together</h2>
-        <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
-      </div>
-      <div class="photo">
-        <img src="img/illustration-grow-together.svg" alt="">
-      </div>
-    </div>
-    <div class="content2">
-      <div class="descripcion2">
-        <h2>Flowing Together</h2>
-        <p>You wouldn't paginate conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow .</p>
-      </div>
-      <div class="photo2">
-        <img src="img/illustration-flowing-conversation.svg" alt="">
-      </div>
-    </div>
-    <div class="content3">
-      <div class="descripcion3">
-        <h2>Your Users</h2>
-        <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signe in to you app, your users can start chatting immediately.</p>
-      </div>
-      <div class="photo3">
-        <img src="img/illustration-your-users.svg" alt="">
-      </div>
-    </div>
-  </main>
+    <header>
+        <h1>Pagina de Javier</h1>
+        <!-- div és un element comú d'estructura de l'html, es sol utilitzar com a contenidor, per separar per grups -->
+        <div class="header-logo">
+            <!-- tag propi per insertar una imatge -->
+            <img src="/dades/Marques/hw.jpg" alt="Logo Nike" align="left" >
+        </div>
+       
+        <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+        <div class="header-xarxes">
+            <H2>Xarxes socials</H2>
+            <!-- hyperlink per a afegir un link amb url a un element al que volem clickar i dirigir a una pàgina web -->
+            <a href="https://es.linkedin.com/NOMUSUARI" target="_blank">
+            <img src="/dades/Marques/linkedin.png" alt="Logo LinkedIn" align="left">
+           </a>
+                <a href="https://x.com/Rubiu5/status/1840774375458406574" target="_blank">
+                <img src="/dades/Marques/x.png" alt="Twitter" align="left">
+                <!-- idea de l'Alex-->
+                </a>
+        </div>
+        <nav>
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <a href="Inici.html">Inici</a>
+            <a href="presentacio.html">Presentacio</a>
+            <a href="Practica.html">Practques</a>
+            <a href="cv.html">CV</a>
+            <a href="contacte.html">contacte</a>
+        </nav>
+    </header>
+</div>
+    </section>
+    <aside>
+        <h2>Contacta amb nosaltres</h2>
+        <form>
+    
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom">
+        <div><label for="correu">Correu electrònic:</label>
+            <input type="email" id="correu" name="correu">
+        </div>
+        <div><label for="motiu">Motiu de la consulta:</label>
+            <select id="motiu" name="motiu">
+            <option value="consultar">Consulta</option>
+            <option value="feedback">Feedback</option>
+            <option value="altres">Altres</option>
+            <option value="Millor profe">Millor profe</option>
+            </select></div>
+            <div>
+                <label for="missatge">Missatge</label>
+                <textarea id="missatge" name="missatge" rows="4" cols="50"></textarea>
+                <button type="submit">Envia</button>
+            </form>
+            </div>
+    </aside>
+        <h3>Articles relacionats</h3>
+    <ul>
+        <li><a href="article1.html">5 consells per millorar la teva productivitat</a></li>
+        <li><a href="article2.html">Com gestionar el teu temps de manera eficient</a></li>
+        <li><a href="article3.html">Eines digitals per treballar des de casa</a></li>
+      </ul>
 </body>
 </html>
+<footer>
+    
+</footer>
